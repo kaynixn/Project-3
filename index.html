@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Part 3</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Project Part 3</h1>
+  </header>
+
+  <section class="card">
+    <h2>Predict Age</h2>
+    <label for="name">Name:</label>
+    <input id="name" placeholder="Name" />
+    <div class="controls">
+      <button id="predictBtn">Predict Age</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+    <div id="result" class="result" style="display:none;"></div>
+  </section>
+
+  <section class="card" style="margin-top:18px;">
+    <h2>Datepicker</h2>
+    <label for="dob">Pick a date:</label>
+    <input id="dob" placeholder="Select date" />
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
